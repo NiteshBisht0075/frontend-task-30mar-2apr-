@@ -1,0 +1,124 @@
+.container{
+    background-color: burlywood;
+    border: 1px solid brown;
+    border-radius: 6px;
+}
+/* .row {
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    height:105px;
+    
+} */
+hr{
+    border: 1px solid black;
+}
+.col-25{
+    float:left;
+    width: 50%;
+    margin-top: 6px;
+
+}
+.col-75{
+    float: left;
+    width:50%;
+    margin-top:44px;
+    /* margin-left: 10px; */
+    /* margin-right: 2px; */
+    padding-left: 21%;
+
+}
+.secondrow{
+    margin-left:  182px;
+}
+.para{
+    margin-left:60px;
+    margin: 37px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:cursive;
+}
+/* .btn{
+    
+    margin-left: 600px;
+    margin-top: 32px;
+   
+} */
+.button{
+    margin:10px;
+    margin-top: 10px;
+    color:white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family:cursive;
+}
+
+.first {
+    border-collapse: collapse;
+    margin-right: 1px;
+   
+    background-color:grey;
+    height:75px;
+    border-radius: 6px;
+
+}
+th {
+    Color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+th, td {
+    width:150px;
+    text-align:center;
+
+    padding:5px
+  
+}
+.geeks {
+    border-right:hidden;
+    color:rgb(255, 91, 91);
+
+}
+.gfg {
+    border-collapse:collapse;
+    border-spacing:0 15px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    margin-top:15px;
+    background-color: rgb(248, 248, 248);
+    height: 65px;
+}
+.namestyle{
+    color:rgb(103, 206, 0);
+    font-family: cursive;
+}
+.genderstyle{
+    font-family: cursive;
+}
+.projectstyle{
+    color:rgb(103, 103, 237);
+    font-weight: bolder;
+    font-family: cursive;
+}
+@media screen and (max-width: 600px) {
+   .first{
+      width: 100%;
+      margin-top: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .row{
+       width: 100%;
+       margin-top: 0;
+     }
+ }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
