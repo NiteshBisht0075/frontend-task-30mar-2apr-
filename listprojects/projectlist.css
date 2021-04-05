@@ -1,9 +1,15 @@
 .container{
     background-color: rgb(205, 205, 205);
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 .firsttable {
     border-collapse: collapse;
     /* border: none; */
+}
+h1{
+    padding-top:20px;
 }
 th {
     /* background-color:rgb(222, 222, 222); */
@@ -82,7 +88,7 @@ tr{
     height:50px;
     font-size: large;
     background-color: white;
-    color:lawngreen;
+    color:rgb(211, 14, 60);
 }
 .type{
     border-left: hidden;

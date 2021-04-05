@@ -1,7 +1,8 @@
 .container{
-    background-color: burlywood;
-    border: 1px solid brown;
+    background-color: #b8c0ff;
+    /* border: 1px solid brown; */
     border-radius: 6px;
+    margin-top: 30px;
 }
 /* .row {
     
@@ -17,6 +18,7 @@ hr{
     float:left;
     width: 50%;
     margin-top: 6px;
+    padding-left: 65px;
 
 }
 .col-75{
@@ -48,7 +50,7 @@ hr{
     margin:10px;
     margin-top: 10px;
     color:white;
-    background-color: blue;
+    background-color:#8a90d6;
     font-weight: bold;
     font-size: 25px;
     padding-top: 6px;
@@ -62,7 +64,7 @@ hr{
     border-collapse: collapse;
     margin-right: 1px;
    
-    background-color:grey;
+    background-color:#8a90d6;
     height:75px;
     border-radius: 6px;
 
@@ -105,20 +107,3 @@ th, td {
     font-weight: bolder;
     font-family: cursive;
 }
-@media screen and (max-width: 600px) {
-   .first{
-      width: 100%;
-      margin-top: 0;
-    }
-}
-@media screen and (max-width: 600px) {
-    .row{
-       width: 100%;
-       margin-top: 0;
-     }
- }
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
